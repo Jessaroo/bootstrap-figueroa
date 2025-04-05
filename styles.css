@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.sidebar {
+    height: 100vh;
+    background-color: #f8f9fa;
+    padding: 20px;
+}
+
+.email-list {
+    max-height: 80vh;
+    overflow-y: auto;
+}
+
+.advertisement {
+    height: 100vh;
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+.navbar {
+    background-color: #007bff;
+    color: white;
+}
+
+.navbar .nav-link {
+    color: white !important;
+}
+
+.search-bar {
+    margin-bottom: 10px;
+}
+
+.email-item {
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+}
+
+.email-item:hover {
+    background-color: #f8f9fa;
+    cursor: pointer;
+}
